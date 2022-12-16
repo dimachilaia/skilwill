@@ -14,6 +14,8 @@ const array = [
   },
 ];
 
+
+
 const FirstFunc = (param)=>{
  const newName = param.reduce((acc, curr)=>curr.age < acc.age ? curr.name :acc)
  console.log(newName)
