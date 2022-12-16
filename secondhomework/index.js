@@ -24,6 +24,8 @@ FirstFunc(array)
 
 
 //2
+
+
 const info = {
   name:'Dima',
   lastName:'Tchilaia',
