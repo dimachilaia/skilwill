@@ -6,7 +6,7 @@ const array = [
   },
   {
     name: "Lasha",
-    age: 21,
+    age: 22,
   },
   {
     name: "Ana",
