@@ -10,35 +10,31 @@ const array = [
   },
   {
     name: "Ana",
-    age: 28,
+    age: 22,
   },
 ];
 
-
-
-const FirstFunc = (param)=>{
- const newName = param.reduce((acc, curr)=>curr.age < acc.age ? curr.name :acc)
- console.log(newName)
-}
-FirstFunc(array) 
-
+const FirstFunc = (param) => {
+  const newName = param.reduce((acc, curr) =>
+    curr.age < acc.age ? curr.name : acc
+  );
+  console.log(newName);
+};
+FirstFunc(array);
 
 //2
 
-
 const info = {
+  name: "Dima",
+  lastName: "Tchilaia",
+  age: 25,
+  about: "React Developer",
+};
 
-  
-  name:'Dima',
-  lastName:'Tchilaia',
-  age:25,
-  about:'React Developer'
-}
 const secondInfo = {
-  ...info
-}
-console.log(secondInfo)
-
+  ...info,
+};
+console.log(secondInfo);
 
 // 3
 const ThirdFunction = () => {
@@ -47,7 +43,7 @@ const ThirdFunction = () => {
     const SecondPlayerNumb = Math.trunc(Math.random() * 6) + 1;
     console.log(
       "First Player Number is" + ` ${FirstPlayerNumb}`,
-      "And Second Player Number is" + ` ${ SecondPlayerNumb}`
+      "And Second Player Number is" + ` ${SecondPlayerNumb}`
     );
     if (FirstPlayerNumb === 3) {
       console.log("A is Winner!");
