@@ -28,7 +28,7 @@ const info = {
   name: "Dima",
   lastName: "Tchilaia",
   age: 25,
-  about: "Senior Developer",
+  about: "Senior Full Stack Developer",
 };
 
 const secondInfo = {
