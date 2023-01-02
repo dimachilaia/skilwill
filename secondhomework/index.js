@@ -25,7 +25,7 @@ FirstFunc(array);
 //2
 
 const info = {
-  name: "Dima",
+  name: "Dimitri",
   lastName: "Tchilaia",
   age: 25,
   about: "Senior Full Stack Developer",
