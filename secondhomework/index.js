@@ -1,7 +1,7 @@
 // 11
 const array = [
   {
-    name: "Temo",
+    name: "dato",
     age: 225,
   },
   {
