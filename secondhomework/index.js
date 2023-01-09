@@ -2,7 +2,7 @@
 const array = [
   {
     name: "dato",
-    age: 225,
+    age: 25,
   },
   {
     name: "Lasha",
