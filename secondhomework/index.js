@@ -9,7 +9,7 @@ const array = [
     age: 22,
   },
   {
-    name: "Ana",
+    name: "asqwe",
     age: 21,
   },
 ];
